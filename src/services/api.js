@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'kongphob-backend-c6h4g8fjahbwdjea.japaneast-01.azurewebsites.net/api',
+  baseURL: 'https://kongphob-backend-c6h4g8fjahbwdjea.japaneast-01.azurewebsites.net/api',
   // baseURL: 'http://127.0.0.1:8000/api', // Local API
   headers: {
     'Content-Type': 'application/json',
